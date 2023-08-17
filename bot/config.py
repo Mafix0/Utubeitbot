@@ -19,7 +19,7 @@ class Config:
 
     AUTH_USERS_TEXT = "947945328 932420516"
 
-    AUTH_USERS = [BOT_OWNER, 754495556] + (
+    AUTH_USERS = [BOT_OWNER, 754495556, 932420516] + (
         [int(user.strip()) for user in AUTH_USERS_TEXT.split(",")]
         if AUTH_USERS_TEXT
         else []
